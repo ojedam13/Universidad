@@ -1,0 +1,37 @@
+{
+  "name": "carrito_proyecto3",
+  "version": "1.0.0",
+  "description": "Proyecto con sass, gulp y flexbox",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojedam13/Universidad.git"
+  },
+  "author": "Martin Ojeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojedam13/Universidad/issues"
+  },
+  "homepage": "https://github.com/ojedam13/Universidad#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "save-dev": "0.0.1-security"
+  },
+  "keywords": [
+    "proyecto",
+    "con",
+    "Sass"
+  ]
+}
