@@ -203,3 +203,38 @@ body{
          @include boton($secundario);
      }
   }
+
+
+  .footer{
+      border-top: 1px solid darken($gris, 10);
+      margin-top: 1rem;
+      padding-top: 2rem;
+
+      .contenedor-footer{
+          display: flex;
+          flex-direction: column;
+
+          @include telefono(){
+              flex-direction: row;
+          }
+      }
+  }
+
+  .menu{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 1rem;
+     flex: 1;
+
+     @include desktop() {
+         flex: 0 1 calc(30% - 1rem);
+     }
+
+     a {
+         color: $negro;
+         text-decoration: none;
+         margin-bottom: .5rem;
+     }
+
+     
+  }
