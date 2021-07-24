@@ -79,6 +79,10 @@ body{
             position: relative;
             width: 40%;
 
+            @include tablet(){
+                width: 40%;
+            }
+
             input[type="submit"]{
                 position: absolute;
                 top: 0;

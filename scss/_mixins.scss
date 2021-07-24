@@ -20,3 +20,23 @@
      background-repeat: no-repeat;
      background-position: center center;
 }
+
+// Media queries
+
+@mixin telefono {
+     @media only screen and(min-width: #{$telefono}) {
+         @content; 
+     }
+}
+
+@mixin tablet {
+     @media only screen and(min-width: #{$tablet}) {
+          @content;
+     }
+}
+
+@mixin desktop {
+     @media only screen and(min-width: #{$desktop}) {
+          @content;
+     }
+}

@@ -90,6 +90,11 @@ body {
   position: relative;
   width: 40%;
 }
+@media only screen and (min-width: 768px) {
+  .hero .contenido-hero form {
+    width: 40%;
+  }
+}
 .hero .contenido-hero form input[type=submit] {
   position: absolute;
   top: 0;
